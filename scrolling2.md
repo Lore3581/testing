@@ -47,11 +47,6 @@
   </style>
 </head>
 <body>
-  <nav>
-    <div>Home</div>
-    <div>Contact</div>
-  </nav>
-
   <div class="container">
     <div class="narrative">
       <p data-note="Single. (adj) only one; not one of several.">
