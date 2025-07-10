@@ -46,11 +46,12 @@
     }
   </style>
 </head>
+
 <body>
   <div class="container">
     <div class="narrative">
       <p data-note="Single. (adj) only one; not one of several.">
-        Hello, this is the example of a single column. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae cursus arcu. Ut venenatis massa ut nibh porta, ac porttitor lacus mollis. Nulla facilisi. Praesent laoreet ex ante, eu lacinia sem varius in. Nulla molestie ligula nisl, at lacinia lorem tempus at. Proin laoreet feugiat condimentum. Aliquam in enim lectus. Aenean ut purus id tellus tincidunt rhoncus. Pellentesque cursus fringilla maximus. In ultrices arcu ut velit convallis rutrum. In eleifend euismod libero, finibus convallis nisi.
+        <b>Hello, this is the example of a single column.</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae cursus arcu. Ut venenatis massa ut nibh porta, ac porttitor lacus mollis. Nulla facilisi. Praesent laoreet ex ante, eu lacinia sem varius in. Nulla molestie ligula nisl, at lacinia lorem tempus at. Proin laoreet feugiat condimentum. Aliquam in enim lectus. Aenean ut purus id tellus tincidunt rhoncus. Pellentesque cursus fringilla maximus. In ultrices arcu ut velit convallis rutrum. In eleifend euismod libero, finibus convallis nisi.
 
 Aliquam a lacinia est. Sed eu imperdiet augue. Etiam tincidunt hendrerit ex, quis faucibus nunc commodo non. Suspendisse ac nulla justo. Nulla luctus purus sed ornare semper. Etiam nec hendrerit odio. Curabitur eget nulla erat.
 
@@ -68,7 +69,7 @@ Curabitur nec ipsum placerat, pellentesque arcu et, porttitor augue. Sed pellent
     <div class="annotation" id="annotation-box"></div>
   </div>
 
-  <script>
+<script>
     const annotationBox = document.getElementById("annotation-box");
     const paragraphs = document.querySelectorAll(".narrative p");
 
@@ -97,6 +98,7 @@ Curabitur nec ipsum placerat, pellentesque arcu et, porttitor augue. Sed pellent
 
     window.addEventListener("scroll", updateAnnotation);
     window.addEventListener("load", updateAnnotation);
-  </script>
+</script>
+
 </body>
 </html>
